@@ -1,1 +1,1 @@
-Script info...!
+console.log("Test");
