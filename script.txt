@@ -1,888 +1,858 @@
 /*** Beginning of function 1 ***/
 
-function _45301(number) {
+function _57696(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += BigInt(2);
+  number -= BigInt(3);
+  number += BigInt(6);
   number *= BigInt(2);
-  number -= BigInt(10);
-  number *= BigInt(2);
-  number -= BigInt(11);
-  number -= BigInt(22);
-  number -= BigInt(26);
-  number -= BigInt(23);
-  number *= BigInt(3);
-  number -= BigInt(6);
-  number += BigInt(18);
-  number += BigInt(36);
-  number *= BigInt(8);
-  number -= BigInt(29);
+  number -= BigInt(21);
+  number += BigInt(35);
+  number -= BigInt(14);
+  number *= BigInt(9);
+  number += BigInt(6);
+  number -= BigInt(16);
+  number -= BigInt(17);
 
   return number;
 }
 
 /*** Beginning of decoding function 1 ***/
 
-function _45301_(number) {
+function _57696_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number += BigInt(29);
-  number /= BigInt(8);
-  number -= BigInt(36);
-  number -= BigInt(18);
-  number += BigInt(6);
-  number /= BigInt(3);
-  number += BigInt(23);
-  number += BigInt(26);
-  number += BigInt(22);
-  number += BigInt(11);
+  number += BigInt(17);
+  number += BigInt(16);
+  number -= BigInt(6);
+  number /= BigInt(9);
+  number += BigInt(14);
+  number -= BigInt(35);
+  number += BigInt(21);
   number /= BigInt(2);
-  number += BigInt(10);
-  number /= BigInt(2);
-  number -= BigInt(2);
+  number -= BigInt(6);
+  number += BigInt(3);
 
   return number;
 }
 
 /*** Beginning of function 2 ***/
 
-function _97192(number) {
+function _22779(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number -= BigInt(7);
-  number += _45301(9);
+  number -= _57696(4);
+  number += BigInt(9);
+  number -= BigInt(33);
   number *= BigInt(2);
-  number -= _45301(13);
-  number *= BigInt(9);
-  number -= _45301(29);
-  number -= BigInt(24);
-  number -= _45301(22);
-  number *= _45301(9);
-  number *= BigInt(2);
-  number *= BigInt(2);
-  number -= _45301(18);
-  number -= BigInt(20);
+  number *= _57696(3);
+  number += _57696(13);
+  number += _57696(3);
+  number *= _57696(3);
+  number *= BigInt(3);
+  number += _57696(22);
+  number -= BigInt(11);
+  number += _57696(14);
 
   return number;
 }
 
 /*** Beginning of decoding function 2 ***/
 
-function _97192_(number) {
+function _22779_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number += BigInt(20);
-  number += _45301(18);
+  number -= _57696(14);
+  number += BigInt(11);
+  number -= _57696(22);
+  number /= BigInt(3);
+  number /= _57696(3);
+  number -= _57696(3);
+  number -= _57696(13);
+  number /= _57696(3);
   number /= BigInt(2);
-  number /= BigInt(2);
-  number /= _45301(9);
-  number += _45301(22);
-  number += BigInt(24);
-  number += _45301(29);
-  number /= BigInt(9);
-  number += _45301(13);
-  number /= BigInt(2);
-  number -= _45301(9);
-  number += BigInt(7);
+  number += BigInt(33);
+  number -= BigInt(9);
+  number += _57696(4);
 
   return number;
 }
 
 /*** Beginning of function 3 ***/
 
-function _89495(number) {
+function _84601(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += _45301(32);
-  number *= _45301(2);
-  number += BigInt(33);
-  number *= _45301(3);
-  number -= _97192(7);
-  number -= _45301(31);
-  number += _45301(8);
-  number -= BigInt(34);
-  number *= _97192(3);
-  number -= BigInt(23);
-  number += BigInt(37);
-  number += _45301(18);
-  number += _97192(15);
-  number += BigInt(26);
+  number += _57696(2);
+  number -= _22779(40);
+  number *= _57696(2);
+  number += _57696(12);
+  number += _57696(15);
+  number *= _22779(2);
+  number *= _22779(3);
+  number += _22779(29);
+  number -= _57696(26);
+  number *= BigInt(2);
+  number += BigInt(20);
   number -= BigInt(36);
-  number += _97192(33);
-  number *= _45301(9);
+  number *= _57696(3);
 
   return number;
 }
 
 /*** Beginning of decoding function 3 ***/
 
-function _89495_(number) {
+function _84601_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number /= _45301(9);
-  number -= _97192(33);
+  number /= _57696(3);
   number += BigInt(36);
-  number -= BigInt(26);
-  number -= _97192(15);
-  number -= _45301(18);
-  number -= BigInt(37);
-  number += BigInt(23);
-  number /= _97192(3);
-  number += BigInt(34);
-  number -= _45301(8);
-  number += _45301(31);
-  number += _97192(7);
-  number /= _45301(3);
-  number -= BigInt(33);
-  number /= _45301(2);
-  number -= _45301(32);
+  number -= BigInt(20);
+  number /= BigInt(2);
+  number += _57696(26);
+  number -= _22779(29);
+  number /= _22779(3);
+  number /= _22779(2);
+  number -= _57696(15);
+  number -= _57696(12);
+  number /= _57696(2);
+  number += _22779(40);
+  number -= _57696(2);
 
   return number;
 }
 
 /*** Beginning of function 4 ***/
 
-function _90436(number) {
+function _93608(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += _45301(10);
-  number += _97192(16);
-  number -= _45301(36);
-  number += BigInt(35);
-  number *= _45301(2);
-  number -= BigInt(2);
-  number -= BigInt(31);
-  number -= BigInt(6);
-  number += _89495(33);
-  number += BigInt(13);
-  number -= BigInt(2);
-  number += _89495(36);
-  number *= _45301(8);
-  number *= _97192(2);
-  number -= _97192(14);
-  number *= _89495(8);
-  number -= _89495(13);
-  number += _89495(20);
-  number *= _45301(9);
+  number *= _22779(8);
+  number += _84601(27);
+  number *= BigInt(8);
+  number += _22779(6);
+  number -= _22779(23);
+  number *= _22779(9);
+  number *= _57696(8);
+  number -= BigInt(37);
+  number -= BigInt(26);
+  number += _84601(18);
+  number *= BigInt(9);
+  number -= _22779(25);
+  number += _57696(2);
 
   return number;
 }
 
 /*** Beginning of decoding function 4 ***/
 
-function _90436_(number) {
+function _93608_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number /= _45301(9);
-  number -= _89495(20);
-  number += _89495(13);
-  number /= _89495(8);
-  number += _97192(14);
-  number /= _97192(2);
-  number /= _45301(8);
-  number -= _89495(36);
-  number += BigInt(2);
-  number -= BigInt(13);
-  number -= _89495(33);
-  number += BigInt(6);
-  number += BigInt(31);
-  number += BigInt(2);
-  number /= _45301(2);
-  number -= BigInt(35);
-  number += _45301(36);
-  number -= _97192(16);
-  number -= _45301(10);
+  number -= _57696(2);
+  number += _22779(25);
+  number /= BigInt(9);
+  number -= _84601(18);
+  number += BigInt(26);
+  number += BigInt(37);
+  number /= _57696(8);
+  number /= _22779(9);
+  number += _22779(23);
+  number -= _22779(6);
+  number /= BigInt(8);
+  number -= _84601(27);
+  number /= _22779(8);
 
   return number;
 }
 
 /*** Beginning of function 5 ***/
 
-function _29177(number) {
+function _83034(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number *= _89495(9);
-  number += _90436(7);
-  number += _89495(10);
-  number -= BigInt(4);
-  number += _89495(27);
-  number -= _89495(14);
-  number += _89495(30);
-  number -= _89495(9);
-  number += _97192(10);
-  number += _45301(21);
-  number += _45301(4);
-  number *= _97192(2);
+  number *= BigInt(9);
+  number -= _57696(11);
+  number *= _57696(2);
+  number -= _93608(9);
+  number *= _22779(2);
+  number -= _22779(26);
+  number += BigInt(19);
+  number += BigInt(17);
+  number += BigInt(25);
+  number -= _84601(24);
 
   return number;
 }
 
 /*** Beginning of decoding function 5 ***/
 
-function _29177_(number) {
+function _83034_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number /= _97192(2);
-  number -= _45301(4);
-  number -= _45301(21);
-  number -= _97192(10);
-  number += _89495(9);
-  number -= _89495(30);
-  number += _89495(14);
-  number -= _89495(27);
-  number += BigInt(4);
-  number -= _89495(10);
-  number -= _90436(7);
-  number /= _89495(9);
+  number += _84601(24);
+  number -= BigInt(25);
+  number -= BigInt(17);
+  number -= BigInt(19);
+  number += _22779(26);
+  number /= _22779(2);
+  number += _93608(9);
+  number /= _57696(2);
+  number += _57696(11);
+  number /= BigInt(9);
 
   return number;
 }
 
 /*** Beginning of function 6 ***/
 
-function _44690(number) {
+function _61759(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number -= _45301(5);
-  number -= BigInt(8);
-  number += _29177(31);
-  number += _90436(27);
-  number *= _89495(3);
-  number *= _90436(3);
-  number -= _45301(15);
-  number -= BigInt(25);
-  number -= BigInt(19);
-  number *= _97192(3);
-  number -= BigInt(12);
-  number *= _97192(9);
-  number *= BigInt(2);
-  number *= _90436(2);
+  number *= _57696(3);
+  number += _93608(11);
+  number += BigInt(6);
+  number -= _93608(32);
+  number += _84601(35);
+  number -= _22779(28);
+  number += _83034(36);
+  number += BigInt(22);
+  number -= _57696(10);
+  number *= BigInt(9);
+  number *= _84601(2);
+  number *= _22779(9);
+  number -= _83034(4);
+  number *= _84601(2);
+  number += _84601(26);
 
   return number;
 }
 
 /*** Beginning of decoding function 6 ***/
 
-function _44690_(number) {
+function _61759_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number /= _90436(2);
-  number /= BigInt(2);
-  number /= _97192(9);
-  number += BigInt(12);
-  number /= _97192(3);
-  number += BigInt(19);
-  number += BigInt(25);
-  number += _45301(15);
-  number /= _90436(3);
-  number /= _89495(3);
-  number -= _90436(27);
-  number -= _29177(31);
-  number += BigInt(8);
-  number += _45301(5);
+  number -= _84601(26);
+  number /= _84601(2);
+  number += _83034(4);
+  number /= _22779(9);
+  number /= _84601(2);
+  number /= BigInt(9);
+  number += _57696(10);
+  number -= BigInt(22);
+  number -= _83034(36);
+  number += _22779(28);
+  number -= _84601(35);
+  number += _93608(32);
+  number -= BigInt(6);
+  number -= _93608(11);
+  number /= _57696(3);
 
   return number;
 }
 
 /*** Beginning of function 7 ***/
 
-function _61862(number) {
+function _77609(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number *= _97192(9);
-  number -= _97192(18);
+  number += _83034(28);
   number *= BigInt(9);
-  number += _29177(20);
-  number += _90436(7);
-  number += _90436(14);
-  number += BigInt(6);
-  number -= BigInt(32);
-  number += _44690(19);
-  number -= _29177(12);
+  number += _22779(10);
+  number *= _57696(2);
+  number *= _84601(9);
+  number -= _22779(29);
+  number += _83034(7);
+  number *= _84601(2);
+  number -= _83034(25);
+  number *= _61759(3);
+  number -= _61759(29);
+  number *= _57696(9);
 
   return number;
 }
 
 /*** Beginning of decoding function 7 ***/
 
-function _61862_(number) {
+function _77609_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number += _29177(12);
-  number -= _44690(19);
-  number += BigInt(32);
-  number -= BigInt(6);
-  number -= _90436(14);
-  number -= _90436(7);
-  number -= _29177(20);
+  number /= _57696(9);
+  number += _61759(29);
+  number /= _61759(3);
+  number += _83034(25);
+  number /= _84601(2);
+  number -= _83034(7);
+  number += _22779(29);
+  number /= _84601(9);
+  number /= _57696(2);
+  number -= _22779(10);
   number /= BigInt(9);
-  number += _97192(18);
-  number /= _97192(9);
+  number -= _83034(28);
 
   return number;
 }
 
 /*** Beginning of function 8 ***/
 
-function _72531(number) {
+function _10403(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += BigInt(20);
-  number += BigInt(25);
-  number -= BigInt(17);
-  number -= BigInt(32);
-  number -= BigInt(21);
-  number *= BigInt(9);
-  number *= BigInt(2);
-  number *= BigInt(2);
-  number *= BigInt(2);
-  number -= BigInt(7);
+  number += _77609(18);
+  number -= BigInt(5);
+  number -= BigInt(10);
   number *= BigInt(8);
-  number -= _89495(26);
+  number *= _83034(8);
+  number -= _61759(30);
+  number -= BigInt(12);
+  number += _57696(7);
+  number -= BigInt(41);
+  number *= BigInt(9);
 
   return number;
 }
 
 /*** Beginning of decoding function 8 ***/
 
-function _72531_(number) {
+function _10403_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number += _89495(26);
-  number /= BigInt(8);
-  number += BigInt(7);
-  number /= BigInt(2);
-  number /= BigInt(2);
-  number /= BigInt(2);
   number /= BigInt(9);
-  number += BigInt(21);
-  number += BigInt(32);
-  number += BigInt(17);
-  number -= BigInt(25);
-  number -= BigInt(20);
+  number += BigInt(41);
+  number -= _57696(7);
+  number += BigInt(12);
+  number += _61759(30);
+  number /= _83034(8);
+  number /= BigInt(8);
+  number += BigInt(10);
+  number += BigInt(5);
+  number -= _77609(18);
 
   return number;
 }
 
 /*** Beginning of function 9 ***/
 
-function _42844(number) {
+function _12998(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number -= _97192(2);
-  number += _72531(11);
-  number += _72531(3);
-  number += _44690(25);
-  number *= _72531(8);
-  number += BigInt(10);
-  number += _72531(33);
-  number *= _72531(9);
-  number -= _72531(21);
-  number -= _29177(3);
-  number += _90436(16);
-  number += BigInt(16);
-  number *= _29177(3);
-  number += _90436(7);
-  number -= _45301(29);
-  number += _72531(3);
+  number *= BigInt(9);
+  number -= _93608(33);
+  number *= BigInt(9);
+  number *= BigInt(3);
+  number += BigInt(4);
+  number += _61759(29);
+  number += BigInt(27);
+  number += BigInt(23);
+  number += _10403(37);
+  number += _10403(37);
+  number += _57696(31);
+  number *= _22779(9);
+  number *= _83034(8);
+  number *= _10403(9);
 
   return number;
 }
 
 /*** Beginning of decoding function 9 ***/
 
-function _42844_(number) {
+function _12998_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= _72531(3);
-  number += _45301(29);
-  number -= _90436(7);
-  number /= _29177(3);
-  number -= BigInt(16);
-  number -= _90436(16);
-  number += _29177(3);
-  number += _72531(21);
-  number /= _72531(9);
-  number -= _72531(33);
-  number -= BigInt(10);
-  number /= _72531(8);
-  number -= _44690(25);
-  number -= _72531(3);
-  number -= _72531(11);
-  number += _97192(2);
+  number /= _10403(9);
+  number /= _83034(8);
+  number /= _22779(9);
+  number -= _57696(31);
+  number -= _10403(37);
+  number -= _10403(37);
+  number -= BigInt(23);
+  number -= BigInt(27);
+  number -= _61759(29);
+  number -= BigInt(4);
+  number /= BigInt(3);
+  number /= BigInt(9);
+  number += _93608(33);
+  number /= BigInt(9);
 
   return number;
 }
 
 /*** Beginning of function 10 ***/
 
-function _100687(number) {
+function _52832(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += BigInt(24);
-  number += BigInt(21);
   number *= BigInt(2);
-  number += BigInt(6);
-  number *= _90436(8);
-  number *= _29177(9);
-  number *= BigInt(3);
-  number *= _44690(3);
-  number *= _89495(2);
-  number *= BigInt(8);
-  number -= BigInt(23);
-  number *= _72531(8);
-  number -= BigInt(22);
-  number += _72531(13);
-  number -= _45301(10);
+  number *= BigInt(9);
+  number *= _10403(3);
+  number -= _12998(28);
+  number *= _57696(3);
+  number -= _84601(20);
+  number -= BigInt(26);
+  number += BigInt(12);
+  number *= BigInt(2);
+  number *= BigInt(2);
+  number -= BigInt(9);
+  number -= _84601(33);
+  number -= _61759(10);
+  number += _12998(17);
 
   return number;
 }
 
 /*** Beginning of decoding function 10 ***/
 
-function _100687_(number) {
+function _52832_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number += _45301(10);
-  number -= _72531(13);
-  number += BigInt(22);
-  number /= _72531(8);
-  number += BigInt(23);
-  number /= BigInt(8);
-  number /= _89495(2);
-  number /= _44690(3);
-  number /= BigInt(3);
-  number /= _29177(9);
-  number /= _90436(8);
-  number -= BigInt(6);
+  number -= _12998(17);
+  number += _61759(10);
+  number += _84601(33);
+  number += BigInt(9);
   number /= BigInt(2);
-  number -= BigInt(21);
-  number -= BigInt(24);
+  number /= BigInt(2);
+  number -= BigInt(12);
+  number += BigInt(26);
+  number += _84601(20);
+  number /= _57696(3);
+  number += _12998(28);
+  number /= _10403(3);
+  number /= BigInt(9);
+  number /= BigInt(2);
 
   return number;
 }
 
 /*** Beginning of function 11 ***/
 
-function _63744(number) {
+function _75089(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number *= BigInt(2);
-  number *= BigInt(8);
-  number -= BigInt(26);
-  number -= _29177(23);
-  number *= BigInt(3);
-  number += BigInt(10);
-  number *= BigInt(8);
-  number += _90436(37);
-  number += BigInt(20);
-  number *= _97192(9);
-  number += _89495(20);
+  number -= _52832(24);
+  number += _77609(19);
+  number *= _52832(2);
+  number -= _61759(22);
+  number -= _84601(10);
+  number -= _22779(3);
+  number -= BigInt(6);
+  number += _12998(20);
+  number *= _77609(2);
+  number -= _84601(12);
+  number -= _93608(23);
+  number -= _57696(22);
+  number *= _22779(2);
 
   return number;
 }
 
 /*** Beginning of decoding function 11 ***/
 
-function _63744_(number) {
+function _75089_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= _89495(20);
-  number /= _97192(9);
-  number -= BigInt(20);
-  number -= _90436(37);
-  number /= BigInt(8);
-  number -= BigInt(10);
-  number /= BigInt(3);
-  number += _29177(23);
-  number += BigInt(26);
-  number /= BigInt(8);
-  number /= BigInt(2);
+  number /= _22779(2);
+  number += _57696(22);
+  number += _93608(23);
+  number += _84601(12);
+  number /= _77609(2);
+  number -= _12998(20);
+  number += BigInt(6);
+  number += _22779(3);
+  number += _84601(10);
+  number += _61759(22);
+  number /= _52832(2);
+  number -= _77609(19);
+  number += _52832(24);
 
   return number;
 }
 
 /*** Beginning of function 12 ***/
 
-function _46398(number) {
+function _11915(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number *= _44690(3);
-  number += _42844(17);
   number *= BigInt(2);
-  number += BigInt(29);
-  number += BigInt(34);
-  number += BigInt(14);
-  number *= BigInt(8);
-  number *= BigInt(9);
-  number += _42844(26);
-  number += _44690(12);
-  number *= _63744(8);
-  number *= _44690(9);
-  number *= BigInt(9);
-  number += _61862(32);
+  number *= BigInt(2);
+  number -= _83034(22);
+  number -= BigInt(34);
+  number += _52832(33);
+  number -= BigInt(12);
+  number -= BigInt(18);
+  number += BigInt(16);
+  number *= _77609(3);
+  number -= BigInt(8);
+  number *= _83034(9);
+  number -= _83034(21);
+  number -= _75089(10);
 
   return number;
 }
 
 /*** Beginning of decoding function 12 ***/
 
-function _46398_(number) {
+function _11915_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= _61862(32);
-  number /= BigInt(9);
-  number /= _44690(9);
-  number /= _63744(8);
-  number -= _44690(12);
-  number -= _42844(26);
-  number /= BigInt(9);
-  number /= BigInt(8);
-  number -= BigInt(14);
-  number -= BigInt(34);
-  number -= BigInt(29);
+  number += _75089(10);
+  number += _83034(21);
+  number /= _83034(9);
+  number += BigInt(8);
+  number /= _77609(3);
+  number -= BigInt(16);
+  number += BigInt(18);
+  number += BigInt(12);
+  number -= _52832(33);
+  number += BigInt(34);
+  number += _83034(22);
   number /= BigInt(2);
-  number -= _42844(17);
-  number /= _44690(3);
+  number /= BigInt(2);
 
   return number;
 }
 
 /*** Beginning of function 13 ***/
 
-function _15783(number) {
+function _99725(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number -= BigInt(24);
+  number *= BigInt(2);
+  number += _93608(8);
+  number *= BigInt(9);
+  number -= _83034(6);
+  number *= _22779(9);
   number += BigInt(2);
   number *= BigInt(3);
-  number *= BigInt(2);
-  number += BigInt(10);
-  number += BigInt(10);
-  number -= BigInt(29);
-  number -= BigInt(35);
-  number += _89495(34);
-  number += BigInt(20);
+  number -= BigInt(9);
+  number *= BigInt(3);
+  number -= _77609(23);
+  number += _61759(29);
+  number += BigInt(26);
 
   return number;
 }
 
 /*** Beginning of decoding function 13 ***/
 
-function _15783_(number) {
+function _99725_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= BigInt(20);
-  number -= _89495(34);
-  number += BigInt(35);
-  number += BigInt(29);
-  number -= BigInt(10);
-  number -= BigInt(10);
-  number /= BigInt(2);
+  number -= BigInt(26);
+  number -= _61759(29);
+  number += _77609(23);
+  number /= BigInt(3);
+  number += BigInt(9);
   number /= BigInt(3);
   number -= BigInt(2);
-  number += BigInt(24);
+  number /= _22779(9);
+  number += _83034(6);
+  number /= BigInt(9);
+  number -= _93608(8);
+  number /= BigInt(2);
 
   return number;
 }
 
 /*** Beginning of function 14 ***/
 
-function _74292(number) {
+function _10475(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number -= BigInt(17);
-  number *= _44690(3);
-  number -= BigInt(33);
-  number += _42844(32);
-  number += _89495(7);
-  number *= BigInt(2);
-  number -= _97192(25);
-  number -= _15783(25);
-  number += BigInt(25);
-  number += BigInt(19);
-  number *= BigInt(8);
-  number *= _97192(3);
-  number *= BigInt(9);
-  number -= _100687(7);
-  number += BigInt(10);
+  number -= _93608(8);
+  number *= _93608(9);
+  number *= BigInt(3);
+  number -= _84601(7);
+  number *= _22779(9);
+  number += _83034(25);
+  number += _84601(10);
+  number += _93608(8);
+  number -= _75089(20);
+  number -= BigInt(21);
+  number -= _10403(8);
+  number += _57696(3);
+  number *= _77609(3);
 
   return number;
 }
 
 /*** Beginning of decoding function 14 ***/
 
-function _74292_(number) {
+function _10475_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= BigInt(10);
-  number += _100687(7);
-  number /= BigInt(9);
-  number /= _97192(3);
-  number /= BigInt(8);
-  number -= BigInt(19);
-  number -= BigInt(25);
-  number += _15783(25);
-  number += _97192(25);
-  number /= BigInt(2);
-  number -= _89495(7);
-  number -= _42844(32);
-  number += BigInt(33);
-  number /= _44690(3);
-  number += BigInt(17);
+  number /= _77609(3);
+  number -= _57696(3);
+  number += _10403(8);
+  number += BigInt(21);
+  number += _75089(20);
+  number -= _93608(8);
+  number -= _84601(10);
+  number -= _83034(25);
+  number /= _22779(9);
+  number += _84601(7);
+  number /= BigInt(3);
+  number /= _93608(9);
+  number += _93608(8);
 
   return number;
 }
 
 /*** Beginning of function 15 ***/
 
-function _53822(number) {
+function _82757(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += BigInt(2);
-  number -= BigInt(18);
-  number += BigInt(8);
-  number += BigInt(35);
-  number += BigInt(19);
-  number += BigInt(28);
-  number += BigInt(26);
-  number -= BigInt(28);
+  number *= _10475(8);
+  number -= BigInt(20);
   number *= BigInt(3);
-  number -= BigInt(18);
+  number -= _84601(16);
   number *= BigInt(9);
+  number -= _61759(27);
+  number += BigInt(7);
+  number -= BigInt(29);
+  number *= _93608(8);
+  number -= BigInt(31);
+  number *= _10475(2);
+  number += _10403(35);
+  number -= _84601(26);
+  number -= _77609(26);
+  number += _77609(3);
 
   return number;
 }
 
 /*** Beginning of decoding function 15 ***/
 
-function _53822_(number) {
+function _82757_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
+  number -= _77609(3);
+  number += _77609(26);
+  number += _84601(26);
+  number -= _10403(35);
+  number /= _10475(2);
+  number += BigInt(31);
+  number /= _93608(8);
+  number += BigInt(29);
+  number -= BigInt(7);
+  number += _61759(27);
   number /= BigInt(9);
-  number += BigInt(18);
+  number += _84601(16);
   number /= BigInt(3);
-  number += BigInt(28);
-  number -= BigInt(26);
-  number -= BigInt(28);
-  number -= BigInt(19);
-  number -= BigInt(35);
-  number -= BigInt(8);
-  number += BigInt(18);
-  number -= BigInt(2);
+  number += BigInt(20);
+  number /= _10475(8);
 
   return number;
 }
 
 /*** Beginning of function 16 ***/
 
-function _89764(number) {
+function _65490(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += BigInt(29);
-  number += _53822(15);
-  number *= BigInt(2);
-  number -= BigInt(37);
-  number += _45301(31);
   number *= BigInt(3);
-  number += _63744(13);
+  number *= BigInt(3);
+  number -= _83034(15);
+  number += BigInt(7);
+  number -= _84601(8);
+  number += _52832(2);
+  number -= _82757(10);
   number *= BigInt(9);
-  number *= BigInt(8);
-  number -= BigInt(21);
-  number -= BigInt(12);
-  number += BigInt(29);
-  number += BigInt(12);
-  number *= BigInt(8);
+  number += _82757(4);
+  number -= _75089(2);
+  number *= BigInt(9);
+  number *= BigInt(2);
 
   return number;
 }
 
 /*** Beginning of decoding function 16 ***/
 
-function _89764_(number) {
+function _65490_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number /= BigInt(8);
-  number -= BigInt(12);
-  number -= BigInt(29);
-  number += BigInt(12);
-  number += BigInt(21);
-  number /= BigInt(8);
-  number /= BigInt(9);
-  number -= _63744(13);
-  number /= BigInt(3);
-  number -= _45301(31);
-  number += BigInt(37);
   number /= BigInt(2);
-  number -= _53822(15);
-  number -= BigInt(29);
+  number /= BigInt(9);
+  number += _75089(2);
+  number -= _82757(4);
+  number /= BigInt(9);
+  number += _82757(10);
+  number -= _52832(2);
+  number += _84601(8);
+  number -= BigInt(7);
+  number += _83034(15);
+  number /= BigInt(3);
+  number /= BigInt(3);
 
   return number;
 }
 
 /*** Beginning of function 17 ***/
 
-function _42020(number) {
+function _67985(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number += _53822(9);
+  number *= BigInt(3);
+  number -= BigInt(11);
+  number *= BigInt(2);
   number *= BigInt(9);
-  number += BigInt(16);
-  number += BigInt(26);
-  number -= BigInt(15);
-  number += BigInt(37);
-  number -= _89495(23);
+  number -= BigInt(28);
   number *= BigInt(8);
-  number -= _44690(24);
-  number -= BigInt(24);
-  number += BigInt(10);
-  number -= _90436(3);
-  number += BigInt(14);
+  number -= BigInt(8);
+  number += BigInt(4);
+  number -= BigInt(23);
+  number *= _93608(9);
+  number -= _65490(14);
+  number *= BigInt(2);
+  number *= BigInt(2);
+  number += _57696(22);
 
   return number;
 }
 
 /*** Beginning of decoding function 17 ***/
 
-function _42020_(number) {
+function _67985_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= BigInt(14);
-  number += _90436(3);
-  number -= BigInt(10);
-  number += BigInt(24);
-  number += _44690(24);
+  number -= _57696(22);
+  number /= BigInt(2);
+  number /= BigInt(2);
+  number += _65490(14);
+  number /= _93608(9);
+  number += BigInt(23);
+  number -= BigInt(4);
+  number += BigInt(8);
   number /= BigInt(8);
-  number += _89495(23);
-  number -= BigInt(37);
-  number += BigInt(15);
-  number -= BigInt(26);
-  number -= BigInt(16);
+  number += BigInt(28);
   number /= BigInt(9);
-  number -= _53822(9);
+  number /= BigInt(2);
+  number += BigInt(11);
+  number /= BigInt(3);
 
   return number;
 }
 
 /*** Beginning of function 18 ***/
 
-function _89500(number) {
+function _82364(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number -= _42020(10);
-  number *= BigInt(9);
-  number += BigInt(21);
-  number += BigInt(23);
+  number -= BigInt(6);
+  number += BigInt(8);
+  number -= BigInt(3);
   number *= BigInt(3);
-  number += BigInt(22);
-  number += BigInt(33);
-  number += BigInt(5);
-  number -= BigInt(15);
-  number *= BigInt(9);
-  number += _72531(12);
+  number *= BigInt(2);
+  number += BigInt(25);
+  number *= _83034(3);
+  number -= BigInt(2);
+  number *= BigInt(2);
+  number -= BigInt(4);
+  number *= BigInt(8);
 
   return number;
 }
 
 /*** Beginning of decoding function 18 ***/
 
-function _89500_(number) {
+function _82364_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= _72531(12);
-  number /= BigInt(9);
-  number += BigInt(15);
-  number -= BigInt(5);
-  number -= BigInt(33);
-  number -= BigInt(22);
+  number /= BigInt(8);
+  number += BigInt(4);
+  number /= BigInt(2);
+  number += BigInt(2);
+  number /= _83034(3);
+  number -= BigInt(25);
+  number /= BigInt(2);
   number /= BigInt(3);
-  number -= BigInt(23);
-  number -= BigInt(21);
-  number /= BigInt(9);
-  number += _42020(10);
+  number += BigInt(3);
+  number -= BigInt(8);
+  number += BigInt(6);
 
   return number;
 }
 
 /*** Beginning of function 19 ***/
 
-function _35656(number) {
+function _57011(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
-  number *= BigInt(9);
-  number *= BigInt(3);
-  number += BigInt(7);
-  number *= BigInt(2);
-  number -= _45301(41);
-  number -= BigInt(21);
+  number -= BigInt(3);
+  number += BigInt(22);
+  number -= BigInt(14);
+  number += BigInt(12);
   number *= BigInt(8);
-  number *= BigInt(3);
-  number += BigInt(10);
-  number -= BigInt(15);
+  number *= BigInt(9);
+  number *= BigInt(9);
+  number += BigInt(20);
+  number += _99725(36);
+  number *= BigInt(8);
+  number *= BigInt(8);
 
   return number;
 }
 
 /*** Beginning of decoding function 19 ***/
 
-function _35656_(number) {
+function _57011_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number += BigInt(15);
-  number -= BigInt(10);
-  number /= BigInt(3);
   number /= BigInt(8);
-  number += BigInt(21);
-  number += _45301(41);
-  number /= BigInt(2);
-  number -= BigInt(7);
-  number /= BigInt(3);
+  number /= BigInt(8);
+  number -= _99725(36);
+  number -= BigInt(20);
   number /= BigInt(9);
+  number /= BigInt(9);
+  number /= BigInt(8);
+  number -= BigInt(12);
+  number += BigInt(14);
+  number -= BigInt(22);
+  number += BigInt(3);
 
   return number;
 }
 
 /*** Beginning of function 20 ***/
 
-function _19318(number) {
+function _10318(number) {
   /*** Math to encode the number ***/
   number = BigInt(number);
   number += BigInt(23);
-  number -= BigInt(32);
-  number *= _53822(3);
-  number += BigInt(2);
-  number *= BigInt(8);
-  number += BigInt(35);
+  number += BigInt(25);
+  number += BigInt(7);
+  number -= BigInt(3);
   number *= BigInt(9);
-  number -= BigInt(4);
-  number -= _72531(8);
+  number *= BigInt(9);
+  number -= BigInt(22);
+  number -= BigInt(38);
+  number *= BigInt(3);
+  number -= BigInt(35);
+  number -= BigInt(11);
   number *= BigInt(8);
-  number += _63744(32);
-  number *= _89495(9);
-  number -= _35656(9);
-  number += _89495(10);
+  number -= _11915(32);
 
   return number;
 }
 
 /*** Beginning of decoding function 20 ***/
 
-function _19318_(number) {
+function _10318_(number) {
   /*** Math to decode the number ***/
   number = BigInt(number);
-  number -= _89495(10);
-  number += _35656(9);
-  number /= _89495(9);
-  number -= _63744(32);
+  number += _11915(32);
   number /= BigInt(8);
-  number += _72531(8);
-  number += BigInt(4);
+  number += BigInt(11);
+  number += BigInt(35);
+  number /= BigInt(3);
+  number += BigInt(38);
+  number += BigInt(22);
   number /= BigInt(9);
-  number -= BigInt(35);
-  number /= BigInt(8);
-  number -= BigInt(2);
-  number /= _53822(3);
-  number += BigInt(32);
+  number /= BigInt(9);
+  number += BigInt(3);
+  number -= BigInt(7);
+  number -= BigInt(25);
   number -= BigInt(23);
 
   return number;
@@ -891,26 +861,30 @@ function _19318_(number) {
 function Encode(number) {
   number = BigInt(number);
 
-  number += _45301(1);
-  number += _97192(1);
-  number += _89495(1);
-  number += _90436(1);
-  number += _29177(1);
-  number += _44690(1);
-  number += _61862(1);
-  number += _72531(1);
-  number += _42844(1);
-  number += _100687(1);
-  number += _63744(1);
-  number += _46398(1);
-  number += _15783(1);
-  number += _74292(1);
-  number += _53822(1);
-  number += _89764(1);
-  number += _42020(1);
-  number += _89500(1);
-  number += _35656(1);
-  number += _19318(1);
+  number += _57696(1);
+  number += _22779(1);
+  number += _84601(1);
+  number += _93608(1);
+  number += _83034(1);
+  number += _61759(1);
+  number += _77609(1);
+  number += _10403(1);
+  number += _12998(1);
+  number += _52832(1);
+  number += _75089(1);
+  number += _11915(1);
+  number += _99725(1);
+  number += _10475(1);
+  number += _82757(1);
+  number += _65490(1);
+  number += _67985(1);
+  number += _82364(1);
+  number += _57011(1);
+  number += _10318(1);
 
   return number;
 }
+
+/*** For our client to encode ***/
+
+module.exports = { Encode };
