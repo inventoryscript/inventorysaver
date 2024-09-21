@@ -1,1 +1,17 @@
-console.log("Test");
+
+function Encode(number) {
+    number = BigInt(number);
+
+    
+
+    return number;
+};
+
+function Decode(number) {
+    number = BigInt(number);
+
+    
+
+    return number;
+}
+    
